@@ -1,0 +1,9 @@
+def textwrap(string, max_length):
+    return "\n".join([string[i:i+max_length]  for i in range(0, len(string), max_length)])
+
+string = input()
+max_length = int(input())
+result = textwrap(string, max_length)
+print(result)
+
+// created by sanjay
