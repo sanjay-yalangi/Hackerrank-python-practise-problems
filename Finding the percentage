@@ -1,0 +1,14 @@
+student_data = {}
+for i in range(int(input())):
+    x = input().split()
+    std_name, std_marks = x[0:1], x[1:]
+    std_marks1 = []
+    for i in std_marks:
+        std_marks1.append(int(i))
+    for i in std_name:
+        student_data[i] = std_marks1
+input_name = input()
+req_marks = student_data[input_name]
+print("{0:.2f}".format(sum(req_marks)/len(req_marks)))
+
+// created by sanjay
