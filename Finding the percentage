@@ -11,4 +11,4 @@ input_name = input()
 req_marks = student_data[input_name]
 print("{0:.2f}".format(sum(req_marks)/len(req_marks)))
 
-// created by sanjay
+// code by sanjay
